@@ -1,4 +1,4 @@
-# FastAPI Production API
+# Platform API
 
 This project is a production-style backend service built with FastAPI.
 It focuses on correctness, clarity, and long-term maintainability.
