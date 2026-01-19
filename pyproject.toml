@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "platform-api"
+version = "0.1.0"
+description = "Backend platform project"
+authors = ["Aleeda Charly <aleeda@gfz.de>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.128.0"
+uvicorn = "^0.40.0"
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "black (>=26.1.0,<27.0.0)",
+    "ruff (>=0.14.13,<0.15.0)",
+    "mypy (>=1.19.1,<2.0.0)",
+    "pytest (>=9.0.2,<10.0.0)"
+]
